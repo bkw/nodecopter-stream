@@ -5,6 +5,7 @@
     "start": "stream.js"
   },
   "dependencies": {
-    "ar-drone": "https://github.com/bkw/node-ar-drone/tarball/master"
+    "ar-drone": "https://github.com/bkw/node-ar-drone/tarball/master",
+    "buffy": "0.0.2"
   }
 }
