@@ -37,3 +37,7 @@ node stream.js
 * make sure ffserver exists on process exit
 
 * reduce CPU usage of node (suspect: parsing frames that could be dropped)
+
+* find out if we really need to parse the PaEV frames out of the video
+  stream, the much simpler stream2.js seems to work just fine
+  (with much less cpu usage)
