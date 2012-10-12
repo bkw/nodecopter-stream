@@ -8,6 +8,8 @@ a webm live stream.
 
 You need a recent version of ffmpeg (together with ffserver) installed.
 
+Known to work is ffmpeg 0.11.1.git-1ad63ff (ffmpeg-devel from macports).
+
 
 Install via Github to get the *latest* version:
 
