@@ -6,7 +6,7 @@ html5 live stream from your
 This is a proof of concept implementation using ffmpeg and ffserver and
 a webm live stream.
 
-You need a recend version of ffmpeg (together with ffserver) installed.
+You need a recent version of ffmpeg (together with ffserver) installed.
 
 
 Install via Github to get the *latest* version:
