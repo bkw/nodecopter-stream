@@ -34,7 +34,7 @@ node stream.js
 
 * experiment with different encodings, bitrates and other ffserver settings
 
-* make sure ffserver exists on process exit
+* make sure ffserver exits on process exit
 
 * reduce CPU usage of node (suspect: parsing frames that could be dropped)
 
