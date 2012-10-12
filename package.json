@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "ar-drone": "https://github.com/bkw/node-ar-drone/tarball/master",
-    "buffy": "0.0.2"
+    "buffy": "https://github.com/bkw/node-buffy/tarball/master"
   }
 }
