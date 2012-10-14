@@ -32,5 +32,3 @@ nodecopter-stream
 * experiment with different encodings, bitrates and other ffserver settings
 
 * check whether webm endocing has improved with ffmpeg 1.0
-
-* publish as an npm module (waiting for upstream release of buffy)

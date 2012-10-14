@@ -12,7 +12,7 @@
     }
   , "dependencies": {
       "ar-drone": "~0.0.2"
-    , "buffy": "https://github.com/bkw/node-buffy/tarball/master"
+    , "buffy": "0.0.4"
     , "mkdirp": "0.3.4"
     }
   , "devDependencies": {
