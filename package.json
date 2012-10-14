@@ -1,5 +1,9 @@
 {
     "name": "nodecopter-stream"
+  , "author": "Bernhard K. Weisshuhn <bkw@codingforce.com>"
+  , "contributors": [
+    "Brian Leroux <b@brian.io>"
+  ]
   , "version": "0.0.1"
   , "bin": "bin/nodecopter-stream"
   , "scripts": {
