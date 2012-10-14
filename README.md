@@ -14,12 +14,12 @@ Known to work is ffmpeg 0.11.1.git-1ad63ff (ffmpeg-devel from macports).
 Install via Github to get the *latest* version:
 
 ```bash
-npm install git://github.com/bkw/nodecopter-stream.git
+npm install -g git://github.com/bkw/nodecopter-stream.git
 ```
 
 Launch the server:
 ```bash
-node stream.js
+nodecopter-stream
 ```
 
 ... and then open index.html in a recent browser (firefox, chrome, opera).
