@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+require('./../nodecopter-stream')()
+
+console.log('NodeCopter Stream started! View the stream here: file://' + __dirname + '/index.html' + "\n\n\n\n\n\n")
+
+var gracefulShutdown = function (signal) {
+    console.log('Exit on signal', signal);
+    process.exit(0);
+}
+
+process.on('SIGTERM', function () {
+    gracefulShutdown('SIGTERM')
+})
+
+process.on('SIGINT', function () {
+    gracefulShutdown('SIGINT');
+})
+
+process.on('uncaughtException', function(err) {
+    console.error(err);
+    gracefulShutdown();
+})

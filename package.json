@@ -1,6 +1,7 @@
 {
   "name": "nodecopter-stream",
   "version": "0.0.1",
+  "bin": "bin/nodecopter-stream",
   "scripts": {
     "start": "stream.js"
   },
