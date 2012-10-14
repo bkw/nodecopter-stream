@@ -11,7 +11,7 @@
     , "test": "jasmine-node spec"
     }
   , "dependencies": {
-      "ar-drone": "https://github.com/bkw/node-ar-drone/tarball/master"
+      "ar-drone": "~0.0.2"
     , "buffy": "https://github.com/bkw/node-buffy/tarball/master"
     , "mkdirp": "0.3.4"
     }
