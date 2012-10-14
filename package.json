@@ -1,17 +1,17 @@
 {
-  "name": "nodecopter-stream",
-  "version": "0.0.1",
-  "bin": "bin/nodecopter-stream",
-  "scripts": {
-    "start": "nodecopter-stream.js",
-    "test": "jasmine-node spec"
-  },
-  "dependencies": {
-    "ar-drone": "https://github.com/bkw/node-ar-drone/tarball/master",
-    "buffy": "https://github.com/bkw/node-buffy/tarball/master",
-    "mkdirp": "0.3.4"
-  },
-  "devDependencies": {
+    "name": "nodecopter-stream"
+  , "version": "0.0.1"
+  , "bin": "bin/nodecopter-stream"
+  , "scripts": {
+      "start": "nodecopter-stream.js"
+    , "test": "jasmine-node spec"
+    }
+  , "dependencies": {
+      "ar-drone": "https://github.com/bkw/node-ar-drone/tarball/master"
+    , "buffy": "https://github.com/bkw/node-buffy/tarball/master"
+    , "mkdirp": "0.3.4"
+    }
+  , "devDependencies": {
     "jasmine-node": "~1.0.26"
   }
 }
