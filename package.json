@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "bin": "bin/nodecopter-stream",
   "scripts": {
-    "start": "stream.js"
+    "start": "nodecopter-stream.js",
+    "test": "jasmine-node spec"
   },
   "dependencies": {
     "ar-drone": "https://github.com/bkw/node-ar-drone/tarball/master",

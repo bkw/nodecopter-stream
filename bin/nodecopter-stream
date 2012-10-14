@@ -2,7 +2,7 @@
 
 require('./../nodecopter-stream')()
 
-console.log('NodeCopter Stream started! View the stream here: file://' + __dirname + '/index.html' + "\n\n\n\n\n\n")
+console.log('NodeCopter Stream started here: file://' + __dirname.replace('/bin','') + '/index.html' + "\n\n\n\n\n\n")
 
 var gracefulShutdown = function (signal) {
     console.log('Exit on signal', signal);
