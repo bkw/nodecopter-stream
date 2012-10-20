@@ -4,6 +4,8 @@ check out my new release
 [node-dronestream](https://github.com/bkw/node-dronestream) which gives
 you a true realtime experience wit no ffmpeg dependencies (pure JS).
 
+Also see [ar-drone-png-stream](https://github.com/Soarez/ar-drone-png-stream).
+
 
 ## nodecopter-stream
 
