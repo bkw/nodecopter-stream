@@ -1,3 +1,10 @@
+# THIS IS OBSOLETE!
+
+check out my new release
+[node-dronestream](https://github.com/bkw/node-dronestream) which gives
+you a true realtime experience wit no ffmpeg dependencies (pure JS).
+
+
 ## nodecopter-stream
 
 browser live stream from your 
